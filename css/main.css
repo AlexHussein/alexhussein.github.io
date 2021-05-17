@@ -49,9 +49,13 @@
 }
 
 .card-img {
-    background-image: url("../img/shiraz-cultivation-autumn.png");
+    background-image: url("../img/shiraz-cultivation-mobile.png");
     background-size: cover;
     flex: 1 1 50%;
+}
+
+.card-img img {
+
 }
 
 .card-body {
@@ -71,3 +75,34 @@
     text-align: justify;
 }
 /* Card - End  */
+
+
+/* Tablet */
+@media screen and (min-width: 901px) and (max-width: 1365px) {
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(15%, 45%));
+        grid-template-rows: repeat(3, minmax(300px, auto));
+        grid-template-areas:
+                "dinner cultivation"
+                "grapes red-wine"
+                "sauvignon shiraz";
+        justify-content: space-evenly;
+        grid-row-gap: 25px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1366px) {
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(20%, 30%));
+        grid-template-rows: repeat(3, minmax(500px, auto));
+        grid-template-areas:
+                "dinner cultivation"
+                "grapes red-wine"
+                "sauvignon shiraz";
+        justify-content: space-evenly;
+        grid-row-gap: 50px;
+    }
+}
