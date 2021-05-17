@@ -1,5 +1,6 @@
 @import "layout.css";
 
+/* Author -  Begin */
 .author {
     display: flex;
     justify-content: center;
@@ -20,3 +21,38 @@
 .blog-post {
     padding: 1rem;
 }
+/* Author -  End */
+
+
+.social-sharing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    padding-top: 1rem;
+}
+
+.facebook {
+    background-image: url("../img/facebook.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}
+
+.twitter {
+    background-image: url("../img/twitter.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}
+
+.instagram {
+    background-image: url("../img/instagram.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}
+/* Social -  End */
