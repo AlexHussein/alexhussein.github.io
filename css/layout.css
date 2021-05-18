@@ -40,3 +40,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.footer .design-system a {
+    color: #FFF;
+}
