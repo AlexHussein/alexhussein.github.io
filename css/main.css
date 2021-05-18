@@ -1,4 +1,5 @@
 @import "layout.css";
+@import "card.css";
 
 #dinner {
     grid-area: dinner;
@@ -24,6 +25,7 @@
     grid-area: shiraz;
 }
 
+/* Mobile - Default */
 .card-grid {
     display: grid;
     grid-template-columns: minmax(200px, 400px);
@@ -38,44 +40,6 @@
     justify-content: space-evenly;
     grid-row-gap: 20px;
 }
-
-/* Card - Begin */
-.card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-radius: 0.25rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.card-img {
-    background-image: url("../img/shiraz-cultivation-mobile.png");
-    background-size: cover;
-    flex: 1 1 50%;
-}
-
-.card-img img {
-
-}
-
-.card-body {
-    flex: 1 1 50%;
-    padding: 10px;
-    text-align: center;
-}
-
-.card-title {
-    padding-bottom: 10%;
-    border-bottom: 1px solid grey;
-}
-
-.card-text {
-    font-weight: 400;
-    padding: 10% 0 10% 0;
-    text-align: justify;
-}
-/* Card - End  */
-
 
 /* Tablet */
 @media screen and (min-width: 901px) and (max-width: 1365px) {
