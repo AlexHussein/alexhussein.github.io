@@ -45,7 +45,22 @@
     margin-bottom: 3rem
 }
 
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .design-system a {
+    color: #FFF;
+}
+
 /* Tablet */
+@media screen and (min-width: 540px) and (max-width: 900px) {
+    .social-sharing {
+        width: 40%;
+    }
+}
+
 @media screen and (min-width: 901px) and (max-width: 1365px) {
     .card-grid {
         display: grid;
@@ -69,7 +84,25 @@
     }
 
     .navbar {
-        padding: 2rem 10rem 2rem 0;
+        padding: 2rem 5rem 2rem 0;
+    }
+
+    .social-sharing {
+        width: 30%;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .home {
+        padding-right: 2rem;
+    }
+
+    .avatar {
+        height: 150px;
+        width: 150px;
     }
 }
 
@@ -97,6 +130,24 @@
     }
 
     .navbar {
-        padding: 2rem 10rem 2rem 0;
+        padding: 2rem 5rem 2rem 0;
+    }
+
+    .social-sharing {
+        width: 20%;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .home {
+        padding-right: 2rem;
+    }
+
+    .avatar {
+        height: 200px;
+        width: 200px;
     }
 }
