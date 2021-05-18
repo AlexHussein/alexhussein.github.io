@@ -32,4 +32,7 @@ body {
 
 .footer {
     background-color: #585454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
