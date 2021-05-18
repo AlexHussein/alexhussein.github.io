@@ -36,5 +36,12 @@ a {
 
 /* Design System - End */
 
+.card-body button:hover {
+    background-color: #5E2028;
+    border: none;
+    color: #FFF;
+    padding: 0.5rem;
+    text-align: center;
+}
 
 
