@@ -1,1 +1,40 @@
 @import "layout.css";
+@import "design-system-page.css";
+
+/* Design System - Start */
+
+h1, h2, h3 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #5E2028;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.button-default {
+    background-color: #5E2028;
+    border: none;
+    color: #FFF;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.button-outlined {
+    border: 1px solid #5E2028;
+    color: #5E2028;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* Design System - End */
+
+
+
