@@ -1,58 +1,9 @@
-@import "layout.css";
+@import "page-layout.css";
+@import "card-layout.css";
 @import "card.css";
 @import "design-system.css";
 @import "../blog-post/blog-post.css";
 @import "../design-system/design-system-page.css";
-
-#dinner {
-    grid-area: dinner;
-}
-
-#cultivation {
-    grid-area: cultivation;
-}
-
-#grapes {
-    grid-area: grapes;
-}
-
-#red-wine {
-    grid-area: red-wine;
-}
-
-#sauvignon {
-    grid-area: sauvignon;
-}
-
-#shiraz {
-    grid-area: shiraz;
-}
-
-/* Mobile - Default */
-.card-grid {
-    display: grid;
-    grid-template-columns: minmax(200px, 400px);
-    grid-template-rows: repeat(6, minmax(200px, auto));
-    grid-template-areas:
-                "dinner"
-                "cultivation"
-                "grapes"
-                "red-wine"
-                "sauvignon"
-                "shiraz";
-    justify-content: space-evenly;
-    grid-row-gap: 20px;
-    margin-bottom: 3rem
-}
-
-.navigation {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer .design-system a {
-    color: #FFF;
-}
 
 /* Tablet */
 @media screen and (min-width: 540px) and (max-width: 900px) {

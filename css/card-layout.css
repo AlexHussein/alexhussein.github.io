@@ -1,0 +1,40 @@
+#dinner {
+    grid-area: dinner;
+}
+
+#cultivation {
+    grid-area: cultivation;
+}
+
+#grapes {
+    grid-area: grapes;
+}
+
+#red-wine {
+    grid-area: red-wine;
+}
+
+#sauvignon {
+    grid-area: sauvignon;
+}
+
+#shiraz {
+    grid-area: shiraz;
+}
+
+/* Mobile - Default */
+.card-grid {
+    display: grid;
+    grid-template-columns: minmax(200px, 400px);
+    grid-template-rows: repeat(6, minmax(200px, auto));
+    grid-template-areas:
+                "dinner"
+                "cultivation"
+                "grapes"
+                "red-wine"
+                "sauvignon"
+                "shiraz";
+    justify-content: space-evenly;
+    grid-row-gap: 20px;
+    margin-bottom: 3rem
+}

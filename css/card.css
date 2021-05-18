@@ -7,13 +7,14 @@
 }
 
 .card-img {
-    background-image: url("../img/shiraz-cultivation-mobile.png");
+    /*background-image: url("../img/shiraz-cultivation-mobile.png");*/
     background-size: cover;
     flex: 1 1 50%;
 }
 
 .card-img img {
-
+    height: 100%;
+    width: 100%;
 }
 
 .card-body {

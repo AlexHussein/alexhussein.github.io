@@ -31,7 +31,7 @@
 }
 
 .facebook {
-    background-image: url("../img/facebook.png");
+    background-image: url("../img/social/facebook.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 30px;
@@ -39,7 +39,7 @@
 }
 
 .twitter {
-    background-image: url("../img/twitter.png");
+    background-image: url("../img/social/twitter.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 30px;
@@ -47,7 +47,7 @@
 }
 
 .linkedin {
-    background-image: url("../img/linkedin.png");
+    background-image: url("../img/social/linkedin.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 30px;
