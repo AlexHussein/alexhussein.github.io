@@ -30,6 +30,10 @@ body {
     align-items: center;
 }
 
+.navbar {
+    text-align: center;
+}
+
 .footer {
     background-color: #585454;
     display: flex;
