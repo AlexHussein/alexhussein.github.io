@@ -1,6 +1,8 @@
 @import "layout.css";
 @import "card.css";
 @import "design-system.css";
+@import "../blog-post/blog-post.css";
+@import "../design-system/design-system-page.css";
 
 #dinner {
     grid-area: dinner;
