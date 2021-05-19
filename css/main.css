@@ -5,7 +5,7 @@
 @import "../blog-post/blog-post.css";
 @import "../design-system/design-system-page.css";
 
-/* Tablet */
+/* Tablet - Begin */
 @media screen and (min-width: 540px) and (max-width: 900px) {
     .social-sharing {
         width: 40%;
@@ -56,8 +56,9 @@
         width: 150px;
     }
 }
+/* Tablet - End */
 
-/* Desktop */
+/* Desktop - Begin */
 @media screen and (min-width: 1366px) {
     .card-grid {
         display: grid;
@@ -114,3 +115,4 @@
         padding-left: 10rem;
     }
 }
+/* Desktop - End */
