@@ -5,16 +5,8 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.strong {
+b {
     font-weight: 700;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.underlined {
-    text-decoration: underline;
 }
 
 a {
